@@ -1,4 +1,4 @@
-// Nisse Nilsson, grudat25 uppg 0.3
+// Nisse Nilsson, grudat26 uppg 0.3
 
 import java.util.Arrays;
 import java.util.EmptyStackException;

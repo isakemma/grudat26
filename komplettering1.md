@@ -1,8 +1,8 @@
-# Kompletteringsuppgifter för övning 1-3 (grudat25)
+# Kompletteringsuppgifter för övning 1-3 (grudat26)
 ### Lämnas in i omtentaperioden (senast fredag 12/6 kl 12:00)
 
-- Lös bara uppgifter för delar du blivit underkänd på och lämna in svaren i katalogen för den ordinarie övningen i organisationen [grudat25 på KTH GitHub](https://gits-15.sys.kth.se/grudat25).
-- Utgå från mallarna i [/grudat25/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
+- Lös bara uppgifter för delar du blivit underkänd på och lämna in svaren i katalogen för den ordinarie övningen i organisationen [grudat26 på KTH GitHub](https://gits-15.sys.kth.se/grudat26).
+- Utgå från mallarna i [/grudat26/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
 - Lösningar ska vara inlämnade före deadline.
 - Du kommer att få återkoppling på din inlämning på samma sätt som tidigare, antingen att uppgiften är godkänd eller att den behöver kompletteras.
 - Normalt kommer återkopplingen senast på onsdagen veckan efter inlämning.

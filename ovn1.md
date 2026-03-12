@@ -1,4 +1,4 @@
-# Övning 1 grudat25
+# Övning 1 grudat26
 ### Deadline: Fredag 21/3 kl 19:00
 Mål:
 - Systematiskt testa program för att upptäcka fel
@@ -6,8 +6,8 @@ Mål:
 
 **Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod. Du ska också ha med en utskrift av din inlämning för kamratgranskning på övningen.**
 
-- Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn1</code> i organisationen [grudat25 på KTH GitHub](https://gits-15.sys.kth.se/grudat25).
-- Utgå från mallarna i [/grudat25/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
+- Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn1</code> i organisationen [grudat26 på KTH GitHub](https://gits-15.sys.kth.se/grudat26).
+- Utgå från mallarna i [/grudat26/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
 - Lösningar ska vara inlämnade före deadline.
 - Du kommer att få återkoppling på din inlämning i form av ett **issue**, antingen att uppgiften är godkänd eller att den behöver kompletteras.
 - Normalt kommer återkopplingen senast på torsdagen veckan efter inlämning.
@@ -90,7 +90,7 @@ Den här gången ska du testa vissa av dina lösningar på Kattis
 innan du lämnar in dem på ditt githubkonto.
 
 1. Du får tillgång till Kattis genom att [logga in](https://kth.kattis.com/login) med ditt KTH-id.
-2. Du måste också [registrera dig på grudat25](https://kth.kattis.com/courses/DD1327/grudat25/register) i Kattis. 
+2. Du måste också [registrera dig på grudat26](https://kth.kattis.com/courses/DD1327/grudat26/register) i Kattis. 
 3. Om du gör uppgiften på workshop-passet, skapa en grupp i Kattis för uppgiften Workshop-problem med dina gruppkamrater så plagiatflaggas ni inte när ni skickar in samma kod.
 
 Mer information om Kattis hittar du på [Kattis supportsidor](https://support.kattis.com/support/home).
@@ -102,7 +102,7 @@ Mer information om Kattis hittar du på [Kattis supportsidor](https://support.ka
 
 - Du får hjälp att verifiera att du testat tillräckligt noga av Kattis. 
 
-- Du kan arbeta iterativt och skicka in dina testfall till Kattis (https://kth.kattis.com/courses/DD1327/grudat25/assignments/m4m3pf/problems/kth.testthelist). Inga av testfallen i Kattis handlar om att alla element som lagras i listan har samma typ, eller om det exakta värdet, alltså behöver du inte kolla om det finns en specifik sträng eller ett specifikt tal som har sönder någon av implementationerna.
+- Du kan arbeta iterativt och skicka in dina testfall till Kattis (https://kth.kattis.com/courses/DD1327/grudat26/assignments/m4m3pf/problems/kth.testthelist). Inga av testfallen i Kattis handlar om att alla element som lagras i listan har samma typ, eller om det exakta värdet, alltså behöver du inte kolla om det finns en specifik sträng eller ett specifikt tal som har sönder någon av implementationerna.
 
 
 ### 1.2 Egen listimplementation 
@@ -111,7 +111,7 @@ Mer information om Kattis hittar du på [Kattis supportsidor](https://support.ka
   Du får inte ändra klassens gränssnitt, dvs du får inte ändra **signaturerna** eller **dokumentationskommentarerna**
   på de  publika metoderna eller lägga till några andra publika metoder. Klassen ska kunna testas med din färdiga testsvit.
   Jag rekommenderar att du testar den ofta medan du skriver den!
-- Skicka in din färdiga lista tillsammans med din testsvit till ett annat Kattisproblem: (https://kth.kattis.com/courses/DD1327/grudat25/assignments/otf5na/problems/kth.testyourlist) så att vi kan se att dina tester körts på din lista.
+- Skicka in din färdiga lista tillsammans med din testsvit till ett annat Kattisproblem: (https://kth.kattis.com/courses/DD1327/grudat26/assignments/otf5na/problems/kth.testyourlist) så att vi kan se att dina tester körts på din lista.
 
 - Beräkna den asymptotiska värstafallstiden för samtliga publika metoder i din implementation. (Gås igenom på föreläsning 2.)
   Uttryck tiden som en funktion av antalet element&nbsp;<i>n</i> i listan.

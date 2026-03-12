@@ -1,4 +1,4 @@
-# Individuellt projekt grudat25
+# Individuellt projekt grudat26
 ### Del 1: Fredag 18/4 kl 12:00, Del 2: Fredag 16/5 kl 12:00
 
 > "The craft of programming begins with empathy, not formatting or languages or tools or algorithms or data structures."<br> - Kent Beck

@@ -1,4 +1,4 @@
-# Övning 6 grudat25
+# Övning 6 grudat26
 ### Deadline: Onsdag 30/4 kl 19:00
 
 Mål:
@@ -8,15 +8,15 @@ Mål:
 
 **Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod. Du ska också ha med en utskrift av din inlämning för kamratgranskning på övningen.**
 
-- Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn6</code> i organisationen [grudat25 på KTH GitHub](https://gits-15.sys.kth.se/grudat25).
-- Utgå från mallarna i [/grudat25/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
+- Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn6</code> i organisationen [grudat26 på KTH GitHub](https://gits-15.sys.kth.se/grudat26).
+- Utgå från mallarna i [/grudat26/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
 - Lösningar ska vara inlämnade före deadline.
 
 Den här gången ska du testa vissa av dina lösningar på Kattis 
 innan du lämnar in dem på ditt githubkonto. Om du inte gjorde övning 1 behöver du först registrera dig på kursen.
 
 1. Du får tillgång till Kattis genom att [logga in](https://kth.kattis.com/login) med ditt KTH-id.
-2. Du måste också [registrera dig på grudat25](https://kth.kattis.com/courses/DD1327/grudat25/register) i Kattis. 
+2. Du måste också [registrera dig på grudat26](https://kth.kattis.com/courses/DD1327/grudat26/register) i Kattis. 
 
 
 
@@ -53,7 +53,7 @@ Följande rekursion beräknar den maximala inkomsten p(n) som man kan tjäna gen
 
 ## 6.2 Reguljära uttryck (Kattis)
 
-### Uppgift [kth.grudatregex](https://kth.kattis.com/courses/DD1327/grudat25/assignments/otf5na/problems/kth.grudatregex).
+### Uppgift [kth.grudatregex](https://kth.kattis.com/courses/DD1327/grudat26/assignments/otf5na/problems/kth.grudatregex).
 
 [Tips om reguljära uttryck](https://www.youtube.com/watch?v=NvKvCXac7sM) (video)
 
@@ -123,7 +123,7 @@ Om det finns flera möjliga lösningar så räcker det om du anger en.
 
 
 ## VG-uppgift (10 högrebetygspoäng): Syntax, svårare
-Lös uppgiften [baylor.cfgparsing](https://kth.kattis.com/courses/DD1327/grudat25/assignments/otf5na/problems/baylor.cfgparsing).
+Lös uppgiften [baylor.cfgparsing](https://kth.kattis.com/courses/DD1327/grudat26/assignments/otf5na/problems/baylor.cfgparsing).
 I det här fallet känner vi inte igen formatet från vår BNF-syntax, men vi känner igen omskrivningsregler, slutsymboler och icke-slutsymboler.
 Det som är svårt för oss är att programmet som löser uppgiften ska kunna läsa in syntaxen som del av testdatat, och sedan avgöra om några strängar ingår i det språk syntaxen definierar. Vi kan alltså inte använda rekursiv medåkning utan måste implementera någon sorts sökning i språket där vi substituerar icke-slutsymboler med andra symboler.
 
