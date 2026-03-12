@@ -1,5 +1,5 @@
 # Övning 6 grudat26
-### Deadline: Onsdag 30/4 kl 19:00
+### Deadline: Tisdag 5/5 kl 19:00
 
 Mål:
  - formulera och implementera rekursiva algoritmer
@@ -125,7 +125,7 @@ Om det finns flera möjliga lösningar så räcker det om du anger en.
 ## VG-uppgift (10 högrebetygspoäng): Syntax, svårare
 Lös uppgiften [baylor.cfgparsing](https://kth.kattis.com/courses/DD1327/grudat26/assignments/otf5na/problems/baylor.cfgparsing).
 I det här fallet känner vi inte igen formatet från vår BNF-syntax, men vi känner igen omskrivningsregler, slutsymboler och icke-slutsymboler.
-Det som är svårt för oss är att programmet som löser uppgiften ska kunna läsa in syntaxen som del av testdatat, och sedan avgöra om några strängar ingår i det språk syntaxen definierar. Vi kan alltså inte använda rekursiv medåkning utan måste implementera någon sorts sökning i språket där vi substituerar icke-slutsymboler med andra symboler.
+Det som är svårt för oss är att programmet som löser uppgiften ska kunna läsa in syntaxen som del av testdatat, och sedan avgöra om några strängar ingår i det språk syntaxen definierar. Vi kan alltså inte använda rekursiv medåkning utan måste implementera någon sorts sökning i språket där vi substituerar icke-slutsymboler med andra symboler. 
 
 Några saker att tänka på:
 * Det är olika grammatiker som ska testas, inte bara den i sample. Den i sample är väldigt förenklad jämfört med vad programmet ska klara.
@@ -134,5 +134,7 @@ Några saker att tänka på:
 * Det finns typiskt cykliska förhållanden mellan symboler, A-> BC, B->CA, C->BA o.s.v.
 * När man tillämpar en regel så kan aldrig strängen bli kortare. Om du genererat något som är längre än strängen du vill kolla om den är i grammatiken är det dags att sluta.
 
-Att få full poäng på den här uppgiften kräver algoritmiska insikter på en nivå som ligger över kursens mål. Du behöver inte klara alla testfall utan det räcker med den första gruppen, dvs det räcker med 60 poäng på uppgiften. (För problem av den storleken måste inte algoritmen vara optimal. Även en klokt implementerad totalsökning kan fungera.)
+Att få full poäng på den här uppgiften kräver algoritmiska insikter på en nivå som ligger över kursens mål. Jag vill **INTE** att du googlar fram en algoritm man läser om i någon senare kurs och implementerar den, utan jag vill se att ni kan använda kursens innehåll till detta! (Det går givetvis bra att lära sig mera senare, men inte att redovisa den versionen!) Du behöver inte klara alla testfall utan det räcker med den första gruppen, dvs det räcker med 60 poäng på uppgiften. (För problem av den storleken måste inte algoritmen vara optimal. En klokt implementerad totalsökning kan fungera.)
+
+
 

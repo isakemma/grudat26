@@ -1,5 +1,5 @@
 # Övning 1 grudat26
-### Deadline: Fredag 21/3 kl 19:00
+### Deadline: Tisdag 24/3 kl 19:00
 Mål:
 - Systematiskt testa program för att upptäcka fel
 - Använda abstraktion som ett verktyg för att förenkla programmeringen
@@ -10,7 +10,7 @@ Mål:
 - Utgå från mallarna i [/grudat26/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
 - Lösningar ska vara inlämnade före deadline.
 - Du kommer att få återkoppling på din inlämning i form av ett **issue**, antingen att uppgiften är godkänd eller att den behöver kompletteras.
-- Normalt kommer återkopplingen senast på torsdagen veckan efter inlämning.
+- Normalt kommer återkopplingen senast en vecka efter deadline.
 
 För den länkade listan kan du bara använda programspråket Python. För den andra uppgiften väljer du själv vilket av programspråken Python, Go eller Java du vill använda.
 **Observera att all kod på den här kursen ska dokumenteras och testas.**

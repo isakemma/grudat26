@@ -1,5 +1,5 @@
 # Övning 4 grudat26 
-### Deadline: Fredag 11/4 kl 12:00
+### Deadline: Tisdag 21/4 kl 19:00
 
 Mål:
  - jämföra algoritmer med avseende på tids- och minnesåtgång

@@ -1,5 +1,5 @@
 # Övning 5 grudat26
-### Deadline: Fredag 18/4 kl 12:00
+### Deadline: Tisdag 28/4 kl 19:00
 
 Mål:
  - modellera problem med grafer och implementera algoritmer för grafsökning
