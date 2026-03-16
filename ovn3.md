@@ -55,7 +55,6 @@ Nu har vi bevisat att algoritmidén är rätt. Detta är ett annat paradigm än 
 [Video om induktion](https://www.youtube.com/watch?v=x8dmvJIF-MI)
 
 ### 3.2 Implementera rekursiv funktion
-Skriv en rekursiv funktion som tar ett binärträd (från övning 2) med heltalsvärden samt ett heltal som indata och räknar hur många av värdena i trädet som är större än indatavärdet! Skriv tester på att din funktion fungerar som avsett. Du behöver inte testa trädet denna gång eftersom du gjorde det i förra hemuppgiften!
 
 ### 3.3 Typvärde
 
