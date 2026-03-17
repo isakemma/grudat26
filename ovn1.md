@@ -15,7 +15,9 @@ Mål:
 För den länkade listan kan du bara använda programspråket Python. För den andra uppgiften väljer du själv vilket av programspråken Python, Go eller Java du vill använda.
 **Observera att all kod på den här kursen ska dokumenteras och testas.**
 
-## Betyg G
+Börja med att göra [Canvasquizzet om hederskodex och AI-användning](https://canvas.kth.se/courses/62593/assignments/376700/).
+
+## Betyg E
 
 ### 1.1 Testning av Länkade listor
 
