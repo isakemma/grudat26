@@ -104,7 +104,7 @@ Mer information om Kattis hittar du på [Kattis supportsidor](https://support.ka
 
 - Du får hjälp att verifiera att du testat tillräckligt noga av Kattis. 
 
-- Du kan arbeta iterativt och skicka in dina testfall till Kattis (https://kth.kattis.com/courses/DD1327/grudat26/assignments/m4m3pf/problems/kth.testthelist). Inga av testfallen i Kattis handlar om att alla element som lagras i listan har samma typ, eller om det exakta värdet, alltså behöver du inte kolla om det finns en specifik sträng eller ett specifikt tal som har sönder någon av implementationerna.
+- Du kan arbeta iterativt och skicka in dina testfall till Kattis (https://kth.kattis.com/courses/DD1327/grudat26/assignments/m4m3pf/problems/testthelist). Inga av testfallen i Kattis handlar om att alla element som lagras i listan har samma typ, eller om det exakta värdet, alltså behöver du inte kolla om det finns en specifik sträng eller ett specifikt tal som har sönder någon av implementationerna.
 
 
 ### 1.2 Egen listimplementation 
@@ -113,7 +113,7 @@ Mer information om Kattis hittar du på [Kattis supportsidor](https://support.ka
   Du får inte ändra klassens gränssnitt, dvs du får inte ändra **signaturerna** eller **dokumentationskommentarerna**
   på de  publika metoderna eller lägga till några andra publika metoder. Klassen ska kunna testas med din färdiga testsvit.
   Jag rekommenderar att du testar den ofta medan du skriver den!
-- Skicka in din färdiga lista tillsammans med din testsvit till ett annat Kattisproblem: (https://kth.kattis.com/courses/DD1327/grudat26/assignments/otf5na/problems/kth.testyourlist) så att vi kan se att dina tester körts på din lista.
+- Skicka in din färdiga lista tillsammans med din testsvit till ett annat Kattisproblem: (https://kth.kattis.com/courses/DD1327/grudat26/assignments/otf5na/problems/testyourlist) så att vi kan se att dina tester körts på din lista.
 
 - Beräkna den asymptotiska värstafallstiden för samtliga publika metoder i din implementation. (Gås igenom på föreläsning 2.)
   Uttryck tiden som en funktion av antalet element&nbsp;<i>n</i> i listan.
