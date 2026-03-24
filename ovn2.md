@@ -15,29 +15,108 @@ Mål:
   - designa och dokumentera programpaket som andra programmerare kan använda
   - jämföra algoritmer med avseende på tids- och minnesåtgång
   - implementera och konstruera algoritmer för grundläggande datastrukturer
+  - använda abstraktion som ett verktyg för att förenkla programmeringen
 
   
-## Betyg G
+## Betyg E
 
 ### 2.1 Ordo-notation
+Ordna funktionerna i följande lista i växande ordning med
+avseende på tillväxtstakt. Funktionen <i>f(n)</i> ska alltså
+komma före funktionen <i>g(n)</i> i listan om
+<i>f(n)</i> är <i>O</i>(<i>g(n)</i>).
 
+<ul>
+<li><i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>n</i><sup>1.7</sup>/2
+</li>
+<li><i>f<sub>3</sub>(n)</i>&nbsp;=&nbsp;<i>n</i>&nbsp;log&nbsp;log&nbsp;<i>n</i> (dvs <i>n</i> gånger logaritmen för logaritmen av <i>n</i>)
+</li>
+<li><i>f<sub>2</sub>(n)</i>&nbsp;=&nbsp;10<sup><i>n</i></sup>
+</li>
+<li><i>f<sub>3</sub>(n)</i>&nbsp;=&nbsp;<i>n</i>&nbsp;log&nbsp;<i>n</i>
+</li>
+<li><i>f<sub>4</sub>(n)</i>&nbsp;=&nbsp;<i>n</i>&nbsp;+100
+</li>
+<li><i>f<sub>5</sub>(n)</i>&nbsp;=&nbsp;2<sup><i>n</i></sup>
+</li>
+</ul>
 
+Vilka av följande påståenden är sanna? Motivera dina svar.
+
+<ul>
+<li><i>n</i>(<i>n</i>&nbsp;+&nbsp;1)&nbsp;/&nbsp;2 = <i>O</i>(<i>n</i><sup>3</sup>)</li>
+<li><i>n</i>(<i>n</i>&nbsp;+&nbsp;1)&nbsp;/&nbsp;2 = <i>O</i>(<i>n</i><sup>2</sup>)</li>
+<li><i>n</i>(<i>n</i>&nbsp;+&nbsp;1)&nbsp;/&nbsp;2 = &Theta;(<i>n</i>)</li>
+<li><i>n</i>(<i>n</i>&nbsp;+&nbsp;1)&nbsp;/&nbsp;2 = &Omega;(<i>n</i>)</li>
+<li>Om <i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>n</i> och <i>f<sub>2</sub>(n)</i>&nbsp;=någon annan funktion av <i>n</i>är alltid antingen <i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>O</i>(<i>f<sub>2</sub>(n)</i>)</li> eller att <i>f<sub>2</sub>(n)</i>&nbsp;=&nbsp;<i>O</i>(<i>f<sub>1</sub>(n)</i>)?</li>
+</ul>
 
 [Video om ordo-notation](https://www.youtube.com/watch?v=rZvpB4Ip2_M)
 
-### 2.2 Tidskomplexitet för algoritm
+### 2.2 Analysera en algoritm
+
+Det här är en algoritm för att beräkna prefixsumma (summan av elementen i ett "prefix" av en lista). 
+Indata är en heltalsvektor <i>A</i> med <i>n</i>&nbsp;element.
+Vi vill beräkna en vektor <i>B</i>, där <i>B</i>[i]&nbsp;=
+<i>A</i>[0]&nbsp;+&nbsp;<i>A</i>[1]&nbsp;+&nbsp;...&nbsp;+&nbsp;<i>A</i>[i].
+Här är en enkel algoritm som löser problemet.
+
+<pre><code><b>for</b> i = 0 <b>to</b> n-1
+    B[i] = 0
+    <b>for</b> j = 0 <b>to</b> i
+        B[i] += A[j]
+</code></pre>
+
+- Beräkna tidskomplexiteten för denna algoritm och uttryck den på
+  formen&nbsp;<i>O</i>(<i>f(n)</i>), där funktionen&nbsp;<i>f(n)</i>
+  är så liten och enkel som möjligt.
+
+- Visa att tidskomplexiteten också är &Omega;(<i>f(n)</i>). (Tidskomplexiteten för just denna implementation, använd definitionen!)
+
+(Du känner dig kanske frestad att hitta på en algoritm med bättre asymptotisk tidskomplexitet - gör det om du vill!)
 
 [Video om tidskomplexitet](https://www.youtube.com/watch?v=x04gACtJHX0)
   
-### 2.3 Datastruktur
+### 2.3 Datastruktur - prioritetskö
 
-[Tips och råd](https://www.youtube.com/watch?v=NCzRttSCeH4) (Video)
+Implementera en prioritetskö som lagrar textsträngar. Implementera den som en min-heap på listform, dvs skapa inga noder eller pekare utan basera heapen på en lista.
+
+- Gör ett tydligt API med publika dokumenterade metoder.
+- Skriv utförlig testkod.
+- Använd koden för den länkade listan i övning&nbsp;1 som mall.
+
+Följande metoder ska finnas:
+
+- Skapa en tom prioritetskö.
+- Lägg till ett nytt element. (Kalla den insert(x))
+- Ta ut elementet med lägst prioritet (kalla den extract_min()).
+- Returnera antalet element i prioritetskön.
+- Returnera hela prioritetskön som en sträng i indexordning från implementationen (inte i prioritetsordning).
+
+*Ange tidskomplexiteten i värstafall för samtliga operationer.*
+
+[Tips och råd (fast när uppgiften var att bygga ett träd, nu är den lite mindre komplex)](https://www.youtube.com/watch?v=NCzRttSCeH4) (Video)
 
 ## Högrebetygsuppgift (värd 10 högrebetygspoäng)
 
-### 2.4 Treap
+### 2.4 Datastruktur - Treap
 
-Modifiera uppgift 2.3 så att du får ett randomiserat binärt sökträd i stället för ett obalanserat träd. Uppdatera tidskomplexiteterna för operationerna där det behövs. Kom ihåg att testa och dokumentera! Alla tester av det obalanserade trädet ska fortfarande gå igenom. 
+Skapa ett randomiserat binärt sökträd, en treap, som håller sig balanserat även om värdena som ska lagras kommer i sorterad ordning. Sättet den gör det är att försöka imitera treapens villkor om "föräldern är bättre än barnen" men inte med avseende på värdena som lagras utan med avseende på slumptal som associeras med värdena.
+
+- Gör ett tydligt API med publika dokumenterade metoder.
+- Skriv utförlig testkod.
+- Använd koden för den länkade listan i övning&nbsp;1 som mall för ditt träd.
+
+Följande metoder ska finnas:
+
+- Skapa ett tomt träd.
+- Lägg till ett nytt element. (Kalla den insert(x))
+- Undersök om ett element finns i trädet (Kalla den exist(x))
+- Returnera antalet element i trädet.
+- Returnerar en sträng med alla element i bokstavsordning, separerade med mellanslag.
+
+Kom ihåg att skriva tester och docstrings!
+
 (Ledning: Det kan vara svårt att skriva bra tester på internt tillstånd i trädet. Två möjligheter är att lägga till en publik metod som returnerar trädets maxhöjd och testa den, eller att prestandatesta trädet. Vi vill undvika linjära samband mellan storlek och tid om trädet är balanserat!)
 
-Det finns problem i Kattis som hanterar binära sökträd, t.ex. https://open.kattis.com/problems/bst. Det ingår inte i kursen men kan ge lite hjälp med att skriva ett balanserat sökträd. Dock har detta problem sina egna givna modifikationer i trädets funktionalitet/insert-metod!
+Det finns problem i Kattis som hanterar binära sökträd, några är samlade i  https://kth.kattis.com/courses/DD1327/grudat26/assignments/m74qag. Dessa är inte obligatoriska men kan ge lite hjälp med att skriva ett balanserat sökträd. Notera att alla problemen kräver något slags styrprogram som *använder* ditt träd för att lösa den specifika uppgiften. Problemet bst ställer t.ex. specifika krav på att summera och skriva antal traverserade nivåer i trädet genom alla inserts i ett givet testfall! 
