@@ -53,31 +53,8 @@ Vilka av följande påståenden är sanna? Motivera dina svar.
 
 [Video om ordo-notation](https://www.youtube.com/watch?v=rZvpB4Ip2_M)
 
-### 2.2 Analysera en algoritm
-
-Det här är en algoritm för att beräkna prefixsumma (summan av elementen i ett "prefix" av en lista). 
-Indata är en heltalsvektor <i>A</i> med <i>n</i>&nbsp;element.
-Vi vill beräkna en vektor <i>B</i>, där <i>B</i>[i]&nbsp;=
-<i>A</i>[0]&nbsp;+&nbsp;<i>A</i>[1]&nbsp;+&nbsp;...&nbsp;+&nbsp;<i>A</i>[i].
-Här är en enkel algoritm som löser problemet.
-
-<pre><code><b>for</b> i = 0 <b>to</b> n-1
-    B[i] = 0
-    <b>for</b> j = 0 <b>to</b> i
-        B[i] += A[j]
-</code></pre>
-
-- Beräkna tidskomplexiteten för denna algoritm och uttryck den på
-  formen&nbsp;<i>O</i>(<i>f(n)</i>), där funktionen&nbsp;<i>f(n)</i>
-  är så liten och enkel som möjligt.
-
-- Visa att tidskomplexiteten också är &Omega;(<i>f(n)</i>). (Tidskomplexiteten för just denna implementation, använd definitionen!)
-
-(Du känner dig kanske frestad att hitta på en algoritm med bättre asymptotisk tidskomplexitet - gör det om du vill!)
-
-[Video om tidskomplexitet](https://www.youtube.com/watch?v=x04gACtJHX0)
   
-### 2.3 Datastruktur - prioritetskö
+### 2.2 Datastruktur - prioritetskö
 
 Implementera en prioritetskö som lagrar textsträngar. Implementera den som en min-heap på listform, dvs skapa inga noder eller pekare utan basera heapen på en lista.
 
@@ -99,7 +76,7 @@ Följande metoder ska finnas:
 
 ## Högrebetygsuppgift (värd 10 högrebetygspoäng)
 
-### 2.4 Datastruktur - Treap
+### 2.3 Datastruktur - Treap
 
 Skapa ett randomiserat binärt sökträd, en treap, som håller sig balanserat även om värdena som ska lagras kommer i sorterad ordning. Sättet den gör det är att försöka imitera treapens villkor om "föräldern är bättre än barnen" men inte med avseende på värdena som lagras utan med avseende på slumptal som associeras med värdena.
 
