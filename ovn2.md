@@ -29,15 +29,15 @@ komma före funktionen <i>g(n)</i> i listan om
 <ul>
 <li><i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>n</i><sup>1.7</sup>/2
 </li>
-<li><i>f<sub>3</sub>(n)</i>&nbsp;=&nbsp;<i>n</i>&nbsp;log&nbsp;log&nbsp;<i>n</i> (dvs <i>n</i> gånger logaritmen för logaritmen av <i>n</i>)
+<li><i>f<sub>2</sub>(n)</i>&nbsp;=&nbsp;<i>n</i>&nbsp;log&nbsp;log&nbsp;<i>n</i> (dvs <i>n</i> gånger logaritmen för logaritmen av <i>n</i>)
 </li>
-<li><i>f<sub>2</sub>(n)</i>&nbsp;=&nbsp;10<sup><i>n</i></sup>
+<li><i>f<sub>3</sub>(n)</i>&nbsp;=&nbsp;10<sup><i>n</i></sup>
 </li>
-<li><i>f<sub>3</sub>(n)</i>&nbsp;=&nbsp;<i>n</i>&nbsp;log&nbsp;<i>n</i>
+<li><i>f<sub>4</sub>(n)</i>&nbsp;=&nbsp;<i>n</i>&nbsp;log&nbsp;<i>n</i>
 </li>
-<li><i>f<sub>4</sub>(n)</i>&nbsp;=&nbsp;<i>n</i>&nbsp;+100
+<li><i>f<sub>5</sub>(n)</i>&nbsp;=&nbsp;<i>n</i>&nbsp;+100
 </li>
-<li><i>f<sub>5</sub>(n)</i>&nbsp;=&nbsp;2<sup><i>n</i></sup>
+<li><i>f<sub>6</sub>(n)</i>&nbsp;=&nbsp;2<sup><i>n</i></sup>
 </li>
 </ul>
 
@@ -48,7 +48,7 @@ Vilka av följande påståenden är sanna? Motivera dina svar.
 <li><i>n</i>(<i>n</i>&nbsp;+&nbsp;1)&nbsp;/&nbsp;2 = <i>O</i>(<i>n</i><sup>2</sup>)</li>
 <li><i>n</i>(<i>n</i>&nbsp;+&nbsp;1)&nbsp;/&nbsp;2 = &Theta;(<i>n</i>)</li>
 <li><i>n</i>(<i>n</i>&nbsp;+&nbsp;1)&nbsp;/&nbsp;2 = &Omega;(<i>n</i>)</li>
-<li>Om <i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>n</i> och <i>f<sub>2</sub>(n)</i>&nbsp;=någon annan funktion av <i>n</i>är alltid antingen <i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>O</i>(<i>f<sub>2</sub>(n)</i>)</li> eller att <i>f<sub>2</sub>(n)</i>&nbsp;=&nbsp;<i>O</i>(<i>f<sub>1</sub>(n)</i>)?</li>
+<li>Om <i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>n</i> och <i>f<sub>2</sub>(n)</i>&nbsp;=någon annan funktion av <i>n</i> är alltid antingen <i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>O</i>(<i>f<sub>2</sub>(n)</i>)</li> eller att <i>f<sub>2</sub>(n)</i>&nbsp;=&nbsp;<i>O</i>(<i>f<sub>1</sub>(n)</i>)?</li>
 </ul>
 
 [Video om ordo-notation](https://www.youtube.com/watch?v=rZvpB4Ip2_M)
