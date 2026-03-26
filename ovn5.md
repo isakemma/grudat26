@@ -24,7 +24,7 @@ ska vara klar redan till denna övning.
 
 [Tips om projektet](https://www.youtube.com/watch?v=dzo3TO_v0uk) (video)
 
-## Betyg G
+## Betyg E
 
 ### 5.1 Rita grafer
 
@@ -70,7 +70,7 @@ Vilka av följande uttryck följer fågelljudssyntaxen? Visa **hur** de ljud som
 9. TITJITITJIRRPTJIRRP (TI-TJI-TI-TJIRRP-TJIRRP)
 
 
-## Betyg VG
+## Högrebetygsuppgift (värd 10 högrebetygspoäng)
 
 ### 5.5 En provisorisk strategi?
 
