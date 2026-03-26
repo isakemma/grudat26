@@ -7,10 +7,10 @@
 
 Du ska skriva ett litet programbibliotek som kan vara användbart för andra.
 Projektet ska genomföras **individuellt**.
-Observera att ett programbibliotek är kod som används av en annan programmerare, så det ska inte vara ett program med användarinteraktioner eller grafiskt gränssnitt utan på API, licens, dokumentation och tester. Din användare är en programmerare!
+Observera att ett programbibliotek är kod som används av en annan programmerare, så det ska inte vara ett program med användarinteraktioner eller grafiskt gränssnitt utan ett paket med API, licens, dokumentation och tester. Din användare är en programmerare!
 
 Du får själv välja om koden ska handla om **matematik**, **fysik** eller **datalogi**.
-Projektet ska innehålla minst ett par hundra rader kod, inklusive testkod.
+Projektet ska innehålla minst ett par hundra rader kod, inklusive testkod, och minst två icketriviala funktioner.
 (Om projektet är över tusen rader så är det å andra sidan för stort.)
 
 [githut.com/yourbasic/fenwick](https://github.com/yourbasic/fenwick) är ett
