@@ -8,7 +8,7 @@ def oktal():          # uppgift 1
 def ISIN():       # uppgift 2
     return ""
 
-def address():     # uppgift 3
+def MACaddress():     # uppgift 3
     return ""
 
 def complex():     # uppgift 4
@@ -35,7 +35,7 @@ from sys import stdin
 import re
 
 def main():
-    tasks = [oktal, isin, address, complex, sorted, sjorovare]
+    tasks = [oktal, isin, MACaddress, complex, sorted, sjorovare]
     print('Skriv in teststrängar:')
     while True:
         line = stdin.readline().rstrip('\r\n')
