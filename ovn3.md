@@ -4,6 +4,7 @@ Mål:
 - Avgöra korrekthet för iterativa och rekursiva algoritmer
 - Formulera och implementera rekursiva algoritmer
 - Jämföra algoritmer med avseende på tids- och minnesåtgång
+- Välja eller konstruera lämplig algoritm och datastruktur för att lösa ett givet problem
 
 ### Deadline: Tisdag 14/4 kl 19:00
 
