@@ -48,7 +48,7 @@ Vilka av följande påståenden är sanna? Motivera dina svar.
 <li><i>n</i>(<i>n</i>&nbsp;+&nbsp;1)&nbsp;/&nbsp;2 = <i>O</i>(<i>n</i><sup>2</sup>)</li>
 <li><i>n</i>(<i>n</i>&nbsp;+&nbsp;1)&nbsp;/&nbsp;2 = &Theta;(<i>n</i>)</li>
 <li><i>n</i>(<i>n</i>&nbsp;+&nbsp;1)&nbsp;/&nbsp;2 = &Omega;(<i>n</i>)</li>
-<li>Om <i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>n</i> och <i>f<sub>2</sub>(n)</i>&nbsp;=någon annan funktion av <i>n</i> är alltid antingen <i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>O</i>(<i>f<sub>2</sub>(n)</i>)</li> eller att <i>f<sub>2</sub>(n)</i>&nbsp;=&nbsp;<i>O</i>(<i>f<sub>1</sub>(n)</i>)?</li>
+<li>Om <i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>n</i> och <i>f<sub>2</sub>(n)</i>&nbsp;=någon annan funktion av <i>n</i> gäller alltid antingen att <i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>O</i>(<i>f<sub>2</sub>(n)</i>)</li> eller att <i>f<sub>2</sub>(n)</i>&nbsp;=&nbsp;<i>O</i>(<i>f<sub>1</sub>(n)</i>)?</li>
 </ul>
 
 [Video om ordo-notation](https://www.youtube.com/watch?v=rZvpB4Ip2_M)
