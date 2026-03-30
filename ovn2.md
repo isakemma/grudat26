@@ -66,7 +66,7 @@ Följande metoder ska finnas:
 
 - Skapa en tom prioritetskö.
 - Lägg till ett nytt element. (Kalla den insert(x)) (eller insert(x, prio) om du vill kunna styra prioriteter)
-- Ta ut elementet med lägst prioritet (kalla den extract_min()).
+- Ta ut bästa elementet (med lägst värde på prioriteten) (kalla den extract_min()).
 - Returnera antalet element i prioritetskön.
 - Returnera hela prioritetskön som en sträng i indexordning från implementationen (inte i prioritetsordning).
 
