@@ -60,14 +60,15 @@ Utöka din länkade lista från övning 1 med en metod larger(x) som tar en para
 
 
 ## Högrebetygsuppgift (värd 10 högrebetygspoäng)
-### PRELIMINÄR 3.3 Designa med invarianter
+### 3.3 Designa med invarianter
 
 - Skriv en effektiv funktion som tar två listor A och B av tal som båda är sorterade i stigande ordning som indata och avgör om det finns ett tal ifrån A och ett tal ifrån B som precis har summan *s*.
 - Skriv en **loopinvariant** som förklarar hur koden fungerar.
-- Räkna också ut tidskomplexiteten för din algoritm. Visa/motivera uträkningen. Algoritmen måste vara linjär i indatas storlek.
+- Räkna också ut tidskomplexiteten för din algoritm. Visa/motivera uträkningen. 
+- Algoritmen måste vara linjär i indatas storlek.
+- Algoritmen ska vara **in-place** ([Wikipedia: In-place algorithm](https://en.wikipedia.org/wiki/In-place_algorithm)),
+dvs använda högst *O*(1) extra utrymme. 
 
-Algoritmen ska vara **in-place** ([Wikipedia: In-place algorithm](https://en.wikipedia.org/wiki/In-place_algorithm)),
-dvs använda högst *O*(1) extra utrymme. *Du får inte använda någon sorteringsalgoritm.*
 
 [Video om loopinvarianter](https://www.youtube.com/watch?v=vVdDyI1PIUU)
 
