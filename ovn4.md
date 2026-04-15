@@ -121,7 +121,8 @@ För vilka värden på k blir algoritmen linjär?
 
 ### 4.3 Sortering med vissa restriktioner
 
-Lös uppgiften Sort of sorting på Kattis. Besvara följande frågor skriftligt och skriv in en länk till Kattisinskickningen!
+Lös uppgiften Sort of sorting på Kattis. Du ska implementera din sortering själv, annars har du svårt att förlklara hur den går till! (men du kan jämföra med inbyggd sortering i dina testfall, t.ex.)
+Besvara följande frågor skriftligt och skriv in en länk till Kattisinskickningen!
 - Vad är det lämpligt att använda för slags sortering här? 
 - Varför? 
 - Vad blir komplexiteten för din lösning?
