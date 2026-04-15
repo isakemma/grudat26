@@ -16,7 +16,7 @@ Du väljer själv vilket av programspråken Python, Go eller Java du vill använ
 
 ## Betyg E
 
-### PRELIMINÄR - 4.1 Tidskomplexitet för rekursiva funktioner
+### 4.1 Tidskomplexitet för rekursiva funktioner
 
 #### Teori
 
