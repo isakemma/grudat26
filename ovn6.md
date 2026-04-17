@@ -116,7 +116,7 @@ utan också ger en lista över halsdukar (garnåtgång och antal) som uppnår de
 Om det finns flera möjliga lösningar så räcker det om du anger en.
 
 ## Högrebetygsuppgift (värd 10 högrebetygspoäng): Miniräknare med postfixnotation
-Du ska tolka aritmetiska operationer på infixform som postfix med hjälp av en stack, och evaluera dem. Det finns tre kattisuppgifter till din hjälp, men du behöver också skriva egna tester (som kanske testar samma saker som Kattis). Gör det för varje bugg du rättar eller ny del av koden du lägger till! Det är funktionerna infixToPostfix och evalPostfix som huvudsakligen ska testas (du behöver lämna in utförliga tester av din stack denna gång, men antagligen ha dem för dig själv ändå).
+Du ska tolka aritmetiska operationer på infixform som postfix med hjälp av en stack, och evaluera dem. Det finns tre kattisuppgifter till din hjälp, men du behöver också skriva egna tester (som kanske testar samma saker som Kattis). Gör det för varje bugg du rättar eller ny del av koden du lägger till! Det är funktionerna infixToPostfix och evalPostfix som huvudsakligen ska testas (du behöver inte lämna in utförliga tester av din stack denna gång, men antagligen ha dem för dig själv ändå).
 Ett kodskelett finns i filen [miniraknare.py](miniraknare.py).
 I den första uppgiften ska du bara tolka infix-uttryck som postfix.
 I den andra uppgiften behöver du evaluera postfix-uttryck, och i den tredje uppgiften behöver du även felhantera indatat - det går förstås inte att evaulera indata på fel format på ett säkert sätt!
