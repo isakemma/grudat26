@@ -19,7 +19,7 @@ Mål:
 ## Individuellt projekt
 
 Observera att en första version av API och övrig dokumentation till
-det [individuella projektet](https://github.com/isakemma/grudat/blob/master/ovn7.md)
+det [individuella projektet](https://github.com/isakemma/grudat26/blob/master/ovn7.md)
 ska vara klar redan till denna övning.
 
 [Tips om projektet](https://www.youtube.com/watch?v=dzo3TO_v0uk) (video)
