@@ -3,7 +3,7 @@
 
 Mål:
  - formulera och implementera rekursiva algoritmer
- - skriva och använda enkel BNF-syntax
+ - använda enkel syntax
  - konstruera och använda reguljära uttryck
 
 **Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod. Du ska också ha med en utskrift av din inlämning för kamratgranskning på övningen.**
