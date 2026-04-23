@@ -43,7 +43,7 @@ Följande rekursion beräknar den maximala inkomsten p(n) som man kan tjäna gen
   Simulera beräkningen för hand och rita ett träd över alla funktionsanrop.
   (Det går bra med ett foto på ett handritat träd.)
 - Förklara varför tidskomplexiteten för denna funktion är exponentiell.
-- Förbättra tidskomplexiteten genom att skriva en version av programmet som cachar delresultat.
+- Förbättra tidskomplexiteten genom att skriva en version av programmet som cachar delresultat. (Själv, inte med annotering!)
 - Räkna ut en tabell över p(n) för n = 0, 1, 2, 3, 4, 5 (med samma h som ovan). Gör beräkningen för hand.
 - Visa att tidskomplexiteten för den uppdaterade koden är O(n<sup>2</sup>).
 
