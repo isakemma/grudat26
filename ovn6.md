@@ -5,6 +5,7 @@ Mål:
  - formulera och implementera rekursiva algoritmer
  - använda enkel syntax
  - konstruera och använda reguljära uttryck
+ - implementera och konstruera algoritmer för grundläggande datastrukturer (VG)
 
 **Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod. Du ska också ha med en utskrift av din inlämning för kamratgranskning på övningen.**
 
@@ -125,4 +126,4 @@ https://kth.kattis.com/courses/DD1327/grudat26/assignments/gavufo/problems/minir
 https://kth.kattis.com/courses/DD1327/grudat26/assignments/gavufo/problems/miniraknareevaluering
 https://kth.kattis.com/courses/DD1327/grudat26/assignments/gavufo/problems/miniraknarefelhantering
 
-
+Detaljerade instruktioner som var planerade till föreläsning 9 finns i filen [miniraknare.md](miniraknare.md). (Föreläsningen kommer att hållas ändå, om möjligt.)
