@@ -129,6 +129,5 @@ Besvara följande frågor skriftligt och skriv in en länk till Kattisinskicknin
 
 Lägg dina egna testfall i en separat fil som du inte skickar in till Kattis - den här gången är det inte dina tester som testas.
 
-(https://open.kattis.com/problems/sortofsorting)
-
+(https://kth.kattis.com/courses/DD1327/grudat26/assignments/gavufo/problems/sortofsorting)
 
