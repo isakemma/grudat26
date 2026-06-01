@@ -57,7 +57,7 @@ Skriv en **diskussionsdel** där du försöker förstå och förklara eventuella
 ## Övning 5
 ### 5.1 Graftraversering
 <!-- Constructed by csacademy graph editor -->
-[graph.png](https://github.com/isakemma/grudat/blob/master/graph.png)
+[graph.png](https://github.com/isakemma/grudat26/blob/master/graph.png)
 
 
 - Besök noderna i den inlänkade grafen i DFS- och BFS-ordning med start i nod 1 respektive nod 2.
