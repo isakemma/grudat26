@@ -1,3 +1,5 @@
+# Komplettering för missad övning 1-2
+Se [https://github.com/isakemma/grudat26/master/komplettering1.md](https://github.com/isakemma/grudat26/blob/master/komplettering1.md)
 
 # Komplettering för missad övning 3-6
 Lämnas in och redovisas under omtentaperioden. Redovisningstider kommer att finnas för någon dag, troligen 8-10 juni. 
